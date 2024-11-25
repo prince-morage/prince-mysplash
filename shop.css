@@ -264,6 +264,14 @@ height: 579px;
         gap: 50px;
     }
 
+    .sec1 .part1 .buy .one{
+        padding: 0;
+      }
+
+      .sec1 .part1 .buy .two{
+        padding: 0;
+      }
+
     .speaks-text h1{
         font-size: 46px;
         font-weight: 400;

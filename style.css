@@ -392,6 +392,14 @@ height: 579px;
             width: 450px;
             height: 560px;
         }
+
+        .sec1 .part1 .buy .one{
+          padding: 0;
+        }
+
+        .sec1 .part1 .buy .two{
+          padding: 0;
+        }
         .sec1 .part1{
             width: 450px;
         }
