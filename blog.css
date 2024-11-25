@@ -299,6 +299,9 @@ a {
         gap: 10px;
         text-align: center;
     }
+    .footer h4{
+      font-size: 30px;
+    }
   }
   
   
