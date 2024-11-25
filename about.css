@@ -44,9 +44,11 @@ header{
    
    
    .cartimg{
-       width: 150px;
-       height: 30px;
-   }
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
    
    .main{
        display: none;
