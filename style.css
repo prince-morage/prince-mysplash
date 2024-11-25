@@ -41,12 +41,16 @@ header{
     z-index: 100;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s ease-in-out;
+ nav a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+   overflow: hidden;
+   transition: color 0.3s ease-in-out;
+    
 }
 
 nav a::after {
@@ -84,11 +88,8 @@ nav a:hover::after {
 
 .main{
     display: none;
-  
-}
+    
 
-#mainlist{
-display: none;
 }
 
 
@@ -156,12 +157,12 @@ padding: 30px 30px 30px 40px;
      }
     
      .sec1 img {
-      transition: transform 0.3s ease-in-out;
-  }
-  
-  .sec1 img:hover {
-      transform: scale(1.02);
-  }
+    transition: transform 0.3s ease-in-out;
+}
+
+.sec1 img:hover {
+    transform: scale(1.02);
+}
 
 
      .sec1 .name-price .name p{
@@ -303,26 +304,6 @@ color: white;
      }
 
 
-     @keyframes fadeIn {
-      from {
-          opacity: 0;
-      }
-      to {
-          opacity: 1;
-      }
-  }
-  
-  @keyframes slideInFromTop {
-      from {
-          transform: translateY(-100px);
-          opacity: 0;
-      }
-      to {
-          transform: translateY(0);
-          opacity: 1;
-      }
-  }
-  
 
       a {
         text-decoration: none;
