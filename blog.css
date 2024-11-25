@@ -16,6 +16,10 @@ header{
     font-size: 20px;
     align-items:center;
    }
+
+   .logo2{
+    display: none;
+  }
    
     nav{
        display: flex;
@@ -320,6 +324,13 @@ a {
         gap: 50px;
     }
 
+    .logo2{
+      display: block;
+    }
+
+    .logo1{
+      display: none;
+    }
 
     header  nav{
        position: absolute;

@@ -16,6 +16,9 @@ header{
     font-size: 20px;
     align-items:center;
    }
+   .logo2{
+    display: none;
+  }
    
     nav{
        display: flex;
@@ -421,6 +424,14 @@ header nav a{
     header{
         background-color: black;
     }
+
+    .logo2{
+        display: block;
+      }
+  
+      .logo1{
+        display: none;
+      }
 }
 
 

@@ -8,7 +8,9 @@ body{
     font-family: Poppins;
     /* overflow: hidden; */
 }
-
+.logo2{
+  display: none;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -245,7 +247,13 @@ padding-left: 50px;
     }
 
 
-  
+    .logo2{
+      display: block;
+    }
+
+    .logo1{
+      display: none;
+    }
 
 header  nav{
    position: absolute;
