@@ -84,8 +84,11 @@ nav a:hover::after {
 
 .main{
     display: none;
-    
+  
+}
 
+#mainlist{
+display: none;
 }
 
 
