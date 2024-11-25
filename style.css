@@ -41,16 +41,12 @@ header{
     z-index: 100;
 }
 
- nav a{
-    text-decoration: none;
-    color: white;
-    height: 50px;
-    display: flex;
-    align-items: center; 
-    justify-content: center;    
-   overflow: hidden;
-   transition: color 0.3s ease-in-out;
-    
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease-in-out;
 }
 
 nav a::after {
