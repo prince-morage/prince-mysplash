@@ -409,6 +409,10 @@ height: 579px;
             gap: 50px;
         }
 
+        .underline{
+          border-bottom: 1px solid black;
+        }
+
         .speaks-text h1{
             font-size: 46px;
             font-weight: 400;
