@@ -424,14 +424,30 @@ height: 579px;
             width: 450px;
             height: 560px;
         }
+        body{
+          width: 100%;
+          font-family: "Poppins";
+          overflow-x: hidden;
+      }
 
-        .sec1 .part1 .buy .one{
-          padding: 0;
+      .sec1 .part1 .buy .one{
+        width: 130px;
+        font-size: 15px;
+      }
+  
+      .sec1 .part1 .buy .two{
+        width: 130px;
+        font-size: 15px;
+        border: 1px solid black;
+      }
+  
+        /* .sec1 .part1 .buy .one{
+         scale: 0.5;
         }
 
         .sec1 .part1 .buy .two{
-          padding: 0;
-        }
+          scale: 0.5;
+        } */
         .sec1 .part1{
             width: 450px;
         }
@@ -529,6 +545,22 @@ height: 579px;
         width: 300px;
         height: 410px;
     }
+
+    .sec1 .part1 .buy .one{
+      width: 130px;
+      font-size: 15px;
+    }
+
+    .sec1 .part1 .buy .two{
+      width: 130px;
+      font-size: 15px;
+      border: 1px solid black;
+    }
+    .sec1 .part1 .buy{
+      display: flex;
+      gap: 30px;
+   }
+
 
     .header-text h1{
         scale: 0.5;

@@ -396,6 +396,18 @@ header nav a{
         padding: 20px;
         color: black;
     }
+
+    .sec1 .part1 .buy .one{
+      width: 130px;
+      font-size: 15px;
+    }
+
+    .sec1 .part1 .buy .two{
+      width: 130px;
+      font-size: 15px;
+      border: 1px solid black;
+    }
+
     .main{
         display: block;
         cursor: pointer;
