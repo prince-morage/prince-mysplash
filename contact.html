@@ -43,27 +43,63 @@
             </header>
             
 
+            <div class="container">
+
      <div class="about-us">contact Us</div>
 
      
      <div class="fills">
-         <form action="">
+         <!-- <form action="">
             <input type="text" placeholder="Name" class="name" required>
             <input type="email" placeholder="Email" class="email" required>
             <input type="text" placeholder="Phone Number" class="number" required>
            
             <textarea name="Message" class="message" placeholder="Message"></textarea>
-            <!-- <a href="message.html"><button>
+             <a href="message.html"><button>
                 Send Message
-             </button></a> -->
+             </button></a> 
          </form>
          <a href="message.html"><button>
           Send Message
-       </button></a>
+       </button></a> -->
+
+
+       <form id="contact-form">
+        <input type="text" class="name" name="user_name" placeholder="Your Name" required />
+        <input type="email" class="email" name="user_email" placeholder="Your Email" required />
+        <input type="text" placeholder="Phone Number" class="number" required>
+        <textarea name="message" class="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your User ID
+        emailjs.init("HaqLwI-PlOoeUI9tK");
+
+        // Form submission event listener
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Use EmailJS to send form data
+            emailjs.sendForm('service_04bk0md', 'template_h5plzpo', this)
+                .then(function(response) {
+                    alert('Email sent successfully!');
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                    alert('Failed to send email. Try again later.');
+                    console.error('FAILED...', error);
+                });
+        });
+    </script>
         
 
 
+
      </div>
+
+    </div>
 
      <footer class="footer">
         <div class="footer-content">

@@ -5,7 +5,9 @@ mainlist.style.maxWidth = "0px";
 function toggleMenu(){
   if(mainlist.style.maxWidth == "0px")
     {
-      mainlist.style.maxWidth ="1000px"
+      mainlist.style.maxWidth ="1000px";
+      
+     
   }
   else{
     mainlist.style.maxWidth= "0px";

@@ -2,11 +2,12 @@
 *{
     padding: 0;
     margin: 0;
+  
 }
 
 body{
     font-family: Poppins;
-    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 header{
@@ -302,6 +303,11 @@ a {
     .footer-column {
         text-align: center;
     }
+    .footer-brand{
+      display: flex;
+  
+      flex-direction: column;
+    }
   
     .footer-bottom {
         flex-direction: column;
@@ -316,7 +322,56 @@ a {
   
   
   
+@media (max-width:1250px){
+  .hero h1{
+    width: 660px;
+height: 84px;
+font-size: 56px;
+font-weight: 400;
+line-height: 84px;
+padding-top: 100px;
+padding-left: 50px;
 
+}
+
+.hero h2{
+    width: 655px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.hero p{
+    width: 722px;
+height: 90px;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 30px;
+padding-left: 50px;
+}
+.hero button{
+  width: 219px;
+  height: 64px;
+  padding: 12px 32px 12px 32px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;    
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.hero{
+  overflow: hidden;
+}
+
+}
  
 
 
@@ -392,17 +447,26 @@ a {
   .hero h1{
     font-size: 40px;
     padding: 0;
-    color: black;
+    /* color: black; */
     width: 400px;
    line-height: 30px;
    text-align: center;
    padding-top: 50px;
   }
 
+  .hero button{
+    scale: 0.8;
+    margin-top: 100px;
+    margin-left:0px;
+  }
+
+  .hero{
+    overflow: hidden;
+  }
   .hero h2{
     font-size: 25px;
     padding: 0;
-    color:red;
+    /* color:red; */
     width: 370px;
     line-height: 30px;
     text-align: center;
@@ -412,7 +476,7 @@ a {
   .hero p{
     font-size: 20px;
     padding: 0;
-    color: blue;
+    /* color: blue; */
     width: 350px;
     text-align: center;
     padding-top: 80px;
