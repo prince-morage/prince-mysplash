@@ -1,3 +1,6 @@
+
+
+
 let mainlist = document.getElementById("mainlist")
 mainlist.style.maxWidth = "0px";
 // mainlist.style.maxHeight = "0px";
